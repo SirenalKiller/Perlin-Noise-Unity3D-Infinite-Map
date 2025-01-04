@@ -17,3 +17,6 @@ UserSettings/
 *.VC.db
 *.cache
 ProjectSettings/XRSettings.asset
+.vs/
+Logs/
+*.log
