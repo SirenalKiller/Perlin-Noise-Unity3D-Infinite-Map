@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class ToggleDayNight : MonoBehaviour
 {
-    public Material daySkybox; // 白天的 Skybox 材质
-    public Material nightSkybox; // 夜晚的 Skybox 材质
+    //public Material daySkybox; // 白天的 Skybox 材质
+    //public Material nightSkybox; // 夜晚的 Skybox 材质
     public Light playerLight; // Player 的 Light 组件
     public Light sunLight;
     public Light moonLight;
@@ -24,7 +24,7 @@ public class ToggleDayNight : MonoBehaviour
         if (isDay)
         {
             // 切换到夜晚
-            RenderSettings.skybox = nightSkybox;
+            //RenderSettings.skybox = nightSkybox;
             if (playerLight != null) playerLight.enabled = true; // 启用 Player 的光源
             if (sunLight != null) sunLight.enabled = false;
             if (moonLight != null) moonLight.enabled = true;
@@ -33,7 +33,7 @@ public class ToggleDayNight : MonoBehaviour
         else
         {
             // 切换到白天
-            RenderSettings.skybox = daySkybox;
+            //RenderSettings.skybox = daySkybox;
             if (playerLight != null) playerLight.enabled = false; // 禁用 Player 的光源
             if (sunLight != null) sunLight.enabled = true;
             if (moonLight != null) moonLight.enabled = false;

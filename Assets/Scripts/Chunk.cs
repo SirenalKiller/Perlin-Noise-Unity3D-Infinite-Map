@@ -240,7 +240,7 @@ public class Chunk : MonoBehaviour
             grassDetails[i] = new DetailPrototype
             {
                 prototypeTexture = grassTextures[i],         // 草的贴图
-                renderMode = DetailRenderMode.GrassBillboard, // 面片草
+                renderMode = DetailRenderMode.Grass, // 面片草
                 minWidth = 19f,                              // 草的最小宽度
                 maxWidth = 20f,                              // 草的最大宽度
                 minHeight = 19f,                             // 草的最小高度

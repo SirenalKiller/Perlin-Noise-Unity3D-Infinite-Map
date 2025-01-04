@@ -154,22 +154,9 @@ MonoBehaviour:
   detailTextureLayers:
   - {fileID: 8574412962073106934, guid: c79ad8ef67c97d04e957e8def89e2e46, type: 2}
   - {fileID: 8574412962073106934, guid: 20f15f5be43f0ad429e85d67a0510f9c, type: 2}
-  - {fileID: 8574412962073106934, guid: 6275fb0a5b951cb46b79d540d3dd16c1, type: 2}
-  grassTextures:
-  - {fileID: 2800000, guid: 91a1945982e98be4d9fe3e3d12fdebd8, type: 3}
-  - {fileID: 2800000, guid: cf3069941001b5c46b1f13d4551d0fd9, type: 3}
-  - {fileID: 2800000, guid: 5733619f617fd954cac22d3d11fd1b93, type: 3}
-  - {fileID: 2800000, guid: b0601839c4520064bb61d58d088810bc, type: 3}
-  - {fileID: 2800000, guid: d238efbd27bc5ae4ead9839995f74830, type: 3}
-  - {fileID: 2800000, guid: e3b33de953074bc4a88d9487f19c1202, type: 3}
-  - {fileID: 2800000, guid: 5afd653e4d79b7a4c9523dd543c0bead, type: 3}
-  - {fileID: 2800000, guid: 5c744e80ad52c884c9ac4c9139b3aaae, type: 3}
-  - {fileID: 2800000, guid: 8900a35e436818940b97df26c3a8a1aa, type: 3}
-  treePrefabs:
-  - {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
-  - {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
-  - {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
-  - {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+  - {fileID: 8574412962073106934, guid: 20f15f5be43f0ad429e85d67a0510f9c, type: 2}
+  grassTextures: []
+  treePrefabs: []
 --- !u!4 &788444473
 Transform:
   m_ObjectHideFlags: 0
@@ -469,7 +456,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57cae98792328a14e863aa9fc931d9d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 100
+  moveSpeed: 120
   jumpForce: 8
   gravity: 20
   slopeLimit: 45
@@ -596,8 +583,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 770f1320e40b2e643828a481cebcd15b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  daySkybox: {fileID: 2100000, guid: e391f00234292cc4f935308c11cf0e54, type: 2}
-  nightSkybox: {fileID: 2100000, guid: 369b9ebe3a62b904dbc19bd332b44086, type: 2}
   playerLight: {fileID: 941832809}
   sunLight: {fileID: 848749445}
   moonLight: {fileID: 1263203046}
